@@ -1,22 +1,22 @@
 # DockerProject
 Commands used in the project are:
 
-To create a image
+To create a image:
 docker build -t [tagname] /path/to/directory/of docker_file
 
-To list images
+To list images:
 docker image ls
 
-To remove a image 
+To remove a image: 
 docker rmi [tagname/id]
 
-To run
+To run:
 docker run [tagname]
 
-To pull from Docker repo
+To pull from Docker repo:
 docker pull [repo/tagname]
 
-To show running containers
+To show running containers:
 docker ps
-To show all containers (including stopped ones)
+To show all containers (including stopped ones):
 docker ps -a 
