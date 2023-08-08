@@ -1,5 +1,6 @@
 # DockerProject
 Commands used in the project are:
+
 To create a image
 docker build -t [tagname] /path/to/directory/of docker_file
 
